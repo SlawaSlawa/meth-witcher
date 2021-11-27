@@ -1,0 +1,33 @@
+.present {
+	padding-top: 25px;
+}
+
+.present__hero {
+	margin-bottom: 30px;
+}
+
+.present__title {
+	font-family: 'IBM Plex Mono';
+	font-weight: 500;
+	font-size: 90px;
+	line-height: 120%;
+	margin-bottom: 8px;
+}
+
+.present__tagline {
+	line-height: 130%;
+	margin-bottom: 54px;
+}
+
+.present__btn {
+	display: block;
+	background-image: url('../images/button.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
+	border-radius: 2px;
+	width: 285px;
+	height: 68px;
+}
+

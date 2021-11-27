@@ -1,0 +1,55 @@
+.tabs__control {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 285px;
+	margin-left: auto;
+	margin-bottom: 12px;
+	padding: 13px 21px;
+}
+
+.present__tabs {
+
+}
+
+.tabs__control {
+
+}
+
+.tabs__btn-wrapper {
+
+}
+
+.tabs__btn {
+	background-color: transparent;
+	border-width: 0;
+	border-bottom: 2px solid transparent;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1.1;
+	transition: border-color .3s ease-in-out;
+}
+
+.tabs__btn_active {
+	border-color: #fff;
+}
+
+.tabs__list {
+
+}
+
+.tabs__item {
+
+}
+
+.tabs__item_active {
+
+}
+
+.tabs__content {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
