@@ -39,3 +39,31 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.navigation__btn {
+	display: none;
+}
+
+@media (max-width: 750px) {
+	.navigation__list {
+		display: none;
+	}
+	.navigation {
+		position: relative;
+	}
+	.navigation__list_active {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		top: 35px;
+		right: 0;
+		gap: 10px;
+	}
+	.navigation__btn {
+		display: block;
+	}
+	.navigation__link {
+		width: 32px;
+		height: 32px;
+	}
+}
